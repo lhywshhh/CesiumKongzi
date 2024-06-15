@@ -1,0 +1,1569 @@
+[
+    {
+        "group": "NDVI",
+        "position": {
+            "lon": 117.316034,
+            "lat": 42.411409,
+            "height": 55150
+        },
+        "legend": "https://zhibei-webgl.oss-cn-beijing.aliyuncs.com/ImageLayerTimeLine/NDVI_colorbar.png",
+        "layers": [
+            {
+                "time": 2004,
+                "name": "1984.1-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2005,
+                "name": "1984.10-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.10/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2006,
+                "name": "1984.11-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.11/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2007,
+                "name": "1984.12-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.12/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2008,
+                "name": "1984.2-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.2/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2009,
+                "name": "1984.3-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.3/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2010,
+                "name": "1984.4-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.4/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2011,
+                "name": "1984.5-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.5/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2012,
+                "name": "1984.6-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.6/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2013,
+                "name": "1984.7-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.7/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2014,
+                "name": "1984.8-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.8/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2015,
+                "name": "1984.9-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1984.9/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2016,
+                "name": "1985.1-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1985.1/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2017,
+                "name": "1985.10-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1985.10/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2018,
+                "name": "1985.11-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1985.11/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2019,
+                "name": "1985.12-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1985.12/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2020,
+                "name": "1985.2-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1985.2/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2021,
+                "name": "1985.3-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1985.3/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2022,
+                "name": "1985.4-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1985.4/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2023,
+                "name": "1985.5-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1985.5/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2024,
+                "name": "1985.6-NDVI",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/NDVI/1985.6/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "group": "最大植被覆盖率图(FVC)",
+        "position": {
+            "lon": 117.316034,
+            "lat": 42.411409,
+            "height": 55150
+        },
+        "legend": "https://zhibei-webgl.oss-cn-beijing.aliyuncs.com/ImageLayerTimeLine/FVC_colorbar.png",
+        "layers": [
+            {
+                "time": 2006,
+                "name": "2006FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2006/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2007,
+                "name": "2007FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2007/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2008,
+                "name": "2008FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2008/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2009,
+                "name": "2009FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2009/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2010,
+                "name": "2010FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2010/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2011,
+                "name": "2011FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2011/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2012,
+                "name": "2012FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2012/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2013,
+                "name": "2013FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2013/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2014,
+                "name": "2014FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2014/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2015,
+                "name": "2015FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2015/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2016,
+                "name": "2016FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2016/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2017,
+                "name": "2017FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2017/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2018,
+                "name": "2018FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2018/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2019,
+                "name": "2019FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2019/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2020,
+                "name": "2020FVC",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/FVC/2020/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "group": "Google_Earth_14",
+        "position": {
+            "lon": 117.316034,
+            "lat": 42.411409,
+            "height": 55150
+        },
+        "layers": [
+            {
+                "time": 1984,
+                "name": "1984-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1984/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1985,
+                "name": "1985-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1985/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1986,
+                "name": "1986-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1986/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1987,
+                "name": "1987-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1987/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1989,
+                "name": "1989-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1989/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1990,
+                "name": "1990-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1990/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1991,
+                "name": "1991-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1991/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1992,
+                "name": "1992-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1992/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1993,
+                "name": "1993-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1993/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1994,
+                "name": "1994-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1994/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1995,
+                "name": "1995-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1995/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1996,
+                "name": "1996-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1996/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1997,
+                "name": "1997-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1997/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1998,
+                "name": "1998-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1998/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 1999,
+                "name": "1999-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/1999/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2000,
+                "name": "2000-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2000/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2001,
+                "name": "2001-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2001/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2002,
+                "name": "2002-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2002/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2003,
+                "name": "2003-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2003/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2004,
+                "name": "2004-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2004/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2005,
+                "name": "2005-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2005/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2006,
+                "name": "2006-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2006/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2007,
+                "name": "2007-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2007/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2008,
+                "name": "2008-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2008/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2009,
+                "name": "2009-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2009/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2010,
+                "name": "2010-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2010/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2011,
+                "name": "2011-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2011/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2012,
+                "name": "2012-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2012/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2013,
+                "name": "2013-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2013/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2014,
+                "name": "2014-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2014/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2015,
+                "name": "2015-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2015/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2016,
+                "name": "2016-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2016/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2017,
+                "name": "2017-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2017/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2018,
+                "name": "2018-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2018/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2019,
+                "name": "2019-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2019/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 2020,
+                "name": "2020-Google_Earth-14",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 13,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/1/2020/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "group": "Google_Earth_15",
+        "position": {
+            "lon": 117.316034,
+            "lat": 42.411409,
+            "height": 55150
+        },
+        "layers": [
+            {
+                "time": 19851231,
+                "name": "19851231-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/19851231/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20080309,
+                "name": "20080309-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20080309/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20110612,
+                "name": "20110612-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20110612/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20130430,
+                "name": "20130430-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20130430/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20130730,
+                "name": "20130730-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20130730/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20131002,
+                "name": "20131002-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20131002/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20131224,
+                "name": "20131224-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20131224/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20150210,
+                "name": "20150210-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20150210/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20150811,
+                "name": "20150811-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20150811/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20150815,
+                "name": "20150815-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20150815/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20161023,
+                "name": "20161023-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20161023/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20180507,
+                "name": "20180507-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20180507/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20180513,
+                "name": "20180513-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20180513/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20180525,
+                "name": "20180525-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20180525/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20180601,
+                "name": "20180601-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20180601/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20190614,
+                "name": "20190614-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20190614/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20190831,
+                "name": "20190831-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20190831/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20200313,
+                "name": "20200313-Google_Earth-15",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 14,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/2/20200313/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "group": "Google_Earth_16",
+        "position": {
+            "lon": 117.316034,
+            "lat": 42.411409,
+            "height": 55150
+        },
+        "layers": [
+            {
+                "time": 20080309,
+                "name": "20080309-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20080309/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20130430,
+                "name": "20130430-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20130430/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20130730,
+                "name": "20130730-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20130730/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20131002,
+                "name": "20131002-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20131002/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20131224,
+                "name": "20131224-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20131224/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20150811,
+                "name": "20150811-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20150811/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20150815,
+                "name": "20150815-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20150815/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20161023,
+                "name": "20161023-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20161023/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20180507,
+                "name": "20180507-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20180507/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20180513,
+                "name": "20180513-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20180513/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            },
+            {
+                "time": 20180525,
+                "name": "20180525-Google_Earth-16",
+                "properties": {
+                    "scheme": "layer-xyz-3857",
+                    "maximumLevel": 15,
+                    "url": "https://bj.webgpu.top:3006/DBService/Google_Earth/3/20180525/{z}/{x}/{y}.png",
+                    "layerRectangle": [
+                        116.7,
+                        42,
+                        117.85,
+                        42.8
+                    ]
+                }
+            }
+        ]
+    }
+]

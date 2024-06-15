@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://bj.webgpu.top:3006/VGEEarth-SDK/Demo/Ext/Cesium/^1.115/Cesium.js"></script>
+    <link href="https://bj.webgpu.top:3006/VGEEarth-SDK/Demo/Ext/Cesium/^1.115/Widgets/widgets.css" rel="stylesheet">
+    <script
+        src="https://bj.webgpu.top:3006/VGEEarth-SDK/Demo/Ext/Cesium-Navigation/^1.1.4/viewerCesiumNavigationMixin.js"></script>
+    <script src="./LTS-Master/LTS-Master/VGEEarth-LTS-min.js"></script>
+    <script src="https://bj.webgpu.top:3006/VGEEarth-SDK/Demo/基础应用/13.实体构造器-特效面/5.模型热力图/config.js"></script>
+</head>
+
+<body>
+    <div id="MapContainer" style="width: 100%;height: 100%"></div>
+    <script type="module">
+
+        VGEEarth.ConfigTool.addTerrainOnIon(true);
+        VGEEarth.ConfigTool.addBingMapOnIon(true);
+
+
+        VGEEarth.ConfigTool.loadConfig({
+            homeView: {
+                'longitude': 108.96172,
+                'latitude': 34.21406,
+                'height': 1183.1319,
+                'headingRadians': 5.966816692542433,
+                'pitchRadians': -0.5702061078146952,
+                'rollRadians': 0.00000783214363231366
+            }
+        });
+
+        const earth = new VGEEarth.Earth('MapContainer');
+        earth.createNavigation();
+        earth.openDeBug();
+
+        function main() {
+
+            const box = {
+                'type': 'Feature',
+                'properties': {},
+                'geometry': {
+                    'coordinates': [
+                        [
+                            [
+                                108.93651512703804,
+                                34.23322900807854
+                            ],
+                            [
+                                108.93651512703804,
+                                34.17180183397552
+                            ],
+                            [
+                                109.00220868821509,
+                                34.17180183397552
+                            ],
+                            [
+                                109.00220868821509,
+                                34.23322900807854
+                            ],
+                            [
+                                108.93651512703804,
+                                34.23322900807854
+                            ]
+                        ]
+                    ],
+                    'type': 'Polygon'
+                }
+            };
+
+
+            const bbox = turf.bbox(box);
+            const randomFeatureCollection = turf.randomPoint(500, { bbox: bbox });
+
+            const randomList = randomFeatureCollection
+                .features
+                .map(item => {
+                    return {
+                        x: item.geometry.coordinates[0],
+                        y: item.geometry.coordinates[1],
+                        z: Math.random() + 1.5
+                    };
+                });
+
+
+            const autoRadiusConfig = {
+                enabled: true,
+                min: 6375000,
+                max: 10000000,
+                maxRadius: 20 * 2,
+                minRadius: 6 * 2
+            };
+            const heatmapConfig = {
+                maxOpacity: 0.4,
+            };
+            const CanvasConfig = {
+                totalArea: 360 * 2 * 720 * 2,
+                autoResize: true,
+                width: 0,
+                height: 0
+            };
+
+
+            const heatmap = new VGEEarth.TileSetPlugin.Heatmap(
+                earth.viewer3D,
+                { data: randomList },
+                bbox,
+                autoRadiusConfig,
+                heatmapConfig,
+                CanvasConfig,
+            );
+        }
+
+
+        main();
+
+    </script>
+</body>
+
+</html>

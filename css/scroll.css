@@ -1,0 +1,174 @@
+.maskLayer{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0,0,0,.5); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: none;
+}
+
+.popup{
+    background-image:url('../images/卷轴.jpg') ;
+    overflow: auto;
+    text-indent: 40px;
+    padding: 20px;
+    font-size: 20px;
+    width: 50%;
+    height: 600px;
+    background-color: #FFFFFF;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -15%;
+    margin-left: -25%;
+}
+
+.item1{
+    width: 100%;
+    height: 30rem;
+    background-color: #8A78FE;
+}
+.btn-click{
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+}
+.item2{
+    width: 100%;
+    height: 30rem;
+    background-color: #FFEBCD;
+}
+.item3{
+    width: 100%;
+    height: 30rem;
+    background-color: #FF5317;
+}
+.item4{
+    width: 100%;
+    height: 30rem;
+    background-color: #199BFF;
+}
+.btn-close{
+  opacity: 0;
+  position: absolute;
+  z-index: 99;
+  margin: 600px 1200px;
+    font-size: 10px;
+    width: 100px;
+    height: 50px;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+}
+.icon{
+  vertical-align:middle;
+}
+
+p{
+    text-align: justify;
+    text-indent: 0px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+p.tit{    
+  font-family: 'KaiTi';
+  vertical-align:middle;
+  color: #000;
+}
+
+/* 新卷轴 */
+.content {
+  position: relative;
+  margin: 40px auto 0;
+  width: 1000px;
+  height: 460px;
+  margin-top: 200px;
+}
+
+.l-pic-index {
+  position: absolute;
+  left: 300px;
+  top: 1px;
+  z-index: 2;
+  width: 200px;
+  height: 500px;
+  background: url("../images/left.png") no-repeat right 0;
+  background-size: contain;
+}
+
+.r-pic-index {
+  position: absolute;
+  right: 300px;
+  top: 0;
+  z-index: 2;
+  width: 82px;
+  width: 200px;
+  height: 500px;
+  background: url("../images/right.png") no-repeat left 0;
+  background-size: contain;
+}
+
+.l-bg-index {
+  position: absolute;
+  top: 0;
+  left: 485px;
+  z-index: 1;
+  width: 20px;
+  height: 500px;
+  background: url("../images/left1.png") right 0 no-repeat;
+  background-size: cover;
+}
+
+.r-bg-index {
+  position: absolute;
+  top: 0;
+  left: 504px;
+  z-index: 1;
+  width: 20px;
+  height: 500px;
+  background: url("../images/right2.png") 0 0 no-repeat;
+  background-size: cover;
+}
+
+.main-index {    
+  display: none;
+  overflow: hidden;
+  zoom: 1;
+  position: absolute;
+  z-index: 5;
+  width: 720px;
+  height: 280px;
+  left: 55px;
+  overflow-y: auto;
+  top: 90px;
+  color: #2e2e2e;
+}
+
+.main-index::-webkit-scrollbar {
+  display: none;
+}
+
+.intro-text {
+  position: relative;
+  overflow: auto;
+  margin: 10px 0 0px 164px;
+  text-indent: 40px;
+  font-size: 20px;
+  /* animation: scroll 20s linear infinite;  */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

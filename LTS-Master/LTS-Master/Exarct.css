@@ -1,0 +1,17 @@
+  #ImageSliderMana {
+      display: flex;
+      position: fixed;
+      bottom: 40px;
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #ImageSliderMana-select {}
+
+  .el-slider {
+      width: 550px;
+      display: inline-block;
+      padding-left: 40px;
+  }
