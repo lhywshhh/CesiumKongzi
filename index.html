@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cesium/1.83/Cesium.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
 
     <style>
         body {
@@ -97,7 +98,8 @@
         }
 
         #timeLineToolbox,
-        #navigationToolbox {
+        #navigationToolbox,
+        #CAAtoolbox {
             position: absolute;
             top: 50px;
             left: 50px;
@@ -113,7 +115,8 @@
         }
 
         #timeLineToolbox button,
-        #navigationToolbox button {
+        #navigationToolbox button,
+        #CAAtoolbox button {
             display: block;
             margin-bottom: 10px;
             padding: 10px;
@@ -128,7 +131,8 @@
         }
 
         #timeLineToolbox button:hover,
-        #navigationToolbox button:hover {
+        #navigationToolbox button:hover,
+        #CAAtoolbox button:hover {
             background-color: #0056b3;
         }
     </style>
@@ -143,6 +147,7 @@
         <button id="toolboxClose">×</button>
         <button id="timeLineLayerButton">时序图层</button>
         <button id="navigationButton">导航路线</button>
+        <button id="CAAButton">传播接受度分析</button>
         <!-- 在这里可以添加更多功能按钮 -->
     </div>
 
@@ -154,6 +159,11 @@
     <div id="navigationToolbox">
         <button id="returnNavigationToolboxButton">返回工具箱</button>
         <button id="closeNavigationButton">关闭导航路线</button>
+    </div>
+
+    <div id="CAAtoolbox">
+        <button id="returnCAAToolboxButton">返回工具箱</button>
+        <button id="closeCAAButton">关闭传播接受度分析</button>
     </div>
 
     <div class="maskLayer">
@@ -197,6 +207,7 @@
     <script src="./js/TimeLineLayer.js"></script>
     <script src="./js/stories.js"></script>
     <script src="./js/combine.js"></script>
+    <script src="./js/CAA.js"></script>
 
     <script>
         document.getElementById('openToolboxButton').addEventListener('click', function () {
@@ -208,6 +219,7 @@
         });
 
         document.getElementById('timeLineLayerButton').addEventListener('click', function () {
+            removeBounceMarkers();
             document.getElementById('toolbox').style.display = 'none';
             document.getElementById('timeLineToolbox').style.display = 'block';
             document.getElementById('ImageSliderMana').style.display = 'block';
@@ -217,6 +229,7 @@
         });
 
         document.getElementById('returnToolboxButton').addEventListener('click', function () {
+            reloadBounceMarkers();
             document.getElementById('toolbox').style.display = 'block';
             document.getElementById('timeLineToolbox').style.display = 'none';
             document.getElementById('ImageSliderMana').style.display = 'none';
@@ -224,6 +237,7 @@
         });
 
         document.getElementById('closeTimeLineLayerButton').addEventListener('click', function () {
+            reloadBounceMarkers();
             document.getElementById('timeLineToolbox').style.display = 'none';
             document.getElementById('toolbox').style.display = 'block';
             document.getElementById('ImageSliderMana').style.display = 'none';
@@ -232,21 +246,45 @@
         });
 
         document.getElementById('navigationButton').addEventListener('click', function () {
+            removeBounceMarkers();
             document.getElementById('toolbox').style.display = 'none';
             document.getElementById('navigationToolbox').style.display = 'block';
             startNavigation(); // Assuming startNavigation function exists to start the navigation
         });
 
         document.getElementById('returnNavigationToolboxButton').addEventListener('click', function () {
+            reloadBounceMarkers();
             document.getElementById('toolbox').style.display = 'block';
             document.getElementById('navigationToolbox').style.display = 'none';
         });
 
         document.getElementById('closeNavigationButton').addEventListener('click', function () {
+            reloadBounceMarkers();
             document.getElementById('navigationToolbox').style.display = 'none';
             document.getElementById('toolbox').style.display = 'block';
             stopNavigation(); // Assuming stopNavigation function exists to stop the navigation
         });
+
+        document.getElementById('CAAButton').addEventListener('click', function () {
+            removeBounceMarkers();
+            document.getElementById('toolbox').style.display = 'none';
+            document.getElementById('CAAtoolbox').style.display = 'block';
+            loadCAA(); // Load and execute the CAA.js script
+        });
+
+        document.getElementById('returnCAAToolboxButton').addEventListener('click', function () {
+            reloadBounceMarkers();
+            document.getElementById('toolbox').style.display = 'block';
+            document.getElementById('CAAtoolbox').style.display = 'none';
+        });
+
+        document.getElementById('closeCAAButton').addEventListener('click', function () {
+            reloadBounceMarkers();
+            document.getElementById('CAAtoolbox').style.display = 'none';
+            document.getElementById('toolbox').style.display = 'block';
+            removeCAA(); // Assuming removeCAA function exists to remove the analysis
+        });
+
     </script>
 </body>
 
